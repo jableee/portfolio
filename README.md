@@ -20,6 +20,12 @@
 | [메타데이터 RAG 기반 NL2SQL 설계](02-nl2sql-metadata-rag.md) | 고객사마다 다른 스키마를 카탈로그 검색으로 골라 SQL 생성 근거로 쓰는 구조 | Text-to-SQL, RAG, SQL 안전장치 |
 | [설치형 솔루션의 운영 문제 해결](03-backend-cases.md) | 다중 노드 분산 락, 이벤트 루프 차단 해소, 저장소 전환 마이그레이션 | NestJS, MongoDB, worker_threads |
 
+## 개인 프로젝트
+
+| 프로젝트 | 한 줄 요약 | 키워드 |
+|---|---|---|
+| [proposal-mcp](https://github.com/jableee/proposal-mcp) | 실무에서 반복되던 제안서 작업을 MCP 서버로 만듦. RFP 요구사항마다 표준·커스터마이징·범위 외를 정의서 인용과 함께 판단하고, 서버가 인용을 원문과 대조해 검증. 사람이 추적표와 초안을 승인해야 PPT가 나옴. 샘플 RFP 14건에서 판단 14건이 정답과 일치 | MCP, Tool Calling, Human-in-the-loop, TypeScript |
+
 ## 일하는 방식
 - **측정하고 결정합니다.** 질문 세트와 평가 스크립트로 바꾸기 전·후를 비교한 뒤 결정합니다.
 - **고객 환경의 제약을 먼저 봅니다.** 폐쇄망, 고객사마다 다른 LLM, 의존성 검증 비용 같은 조건이 설계를 정합니다.
